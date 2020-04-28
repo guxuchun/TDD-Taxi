@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD41261E2458058A007EBAE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD41261D2458058A007EBAE0 /* AppDelegate.m */; };
+		AD4126212458058A007EBAE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4126202458058A007EBAE0 /* ViewController.m */; };
+		AD4126232458058B007EBAE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4126222458058B007EBAE0 /* Assets.xcassets */; };
+		AD4126262458058B007EBAE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4126242458058B007EBAE0 /* Main.storyboard */; };
+		AD4126292458058B007EBAE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4126282458058B007EBAE0 /* main.m */; };
+		AD4126342458058B007EBAE0 /* TaxiTDDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4126332458058B007EBAE0 /* TaxiTDDTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD4126302458058B007EBAE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD4126112458058A007EBAE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD4126182458058A007EBAE0;
+			remoteInfo = TaxiTDD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD4126192458058A007EBAE0 /* TaxiTDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiTDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD41261C2458058A007EBAE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD41261D2458058A007EBAE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD41261F2458058A007EBAE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD4126202458058A007EBAE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD4126222458058B007EBAE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD4126252458058B007EBAE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD4126272458058B007EBAE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD4126282458058B007EBAE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD41262A2458058B007EBAE0 /* TaxiTDD.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TaxiTDD.entitlements; sourceTree = "<group>"; };
+		AD41262F2458058B007EBAE0 /* TaxiTDDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiTDDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4126332458058B007EBAE0 /* TaxiTDDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaxiTDDTests.m; sourceTree = "<group>"; };
+		AD4126352458058B007EBAE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD4126162458058A007EBAE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD41262C2458058B007EBAE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD4126102458058A007EBAE0 = {
+			isa = PBXGroup;
+			children = (
+				AD41261B2458058A007EBAE0 /* TaxiTDD */,
+				AD4126322458058B007EBAE0 /* TaxiTDDTests */,
+				AD41261A2458058A007EBAE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD41261A2458058A007EBAE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD4126192458058A007EBAE0 /* TaxiTDD.app */,
+				AD41262F2458058B007EBAE0 /* TaxiTDDTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD41261B2458058A007EBAE0 /* TaxiTDD */ = {
+			isa = PBXGroup;
+			children = (
+				AD41261C2458058A007EBAE0 /* AppDelegate.h */,
+				AD41261D2458058A007EBAE0 /* AppDelegate.m */,
+				AD41261F2458058A007EBAE0 /* ViewController.h */,
+				AD4126202458058A007EBAE0 /* ViewController.m */,
+				AD4126222458058B007EBAE0 /* Assets.xcassets */,
+				AD4126242458058B007EBAE0 /* Main.storyboard */,
+				AD4126272458058B007EBAE0 /* Info.plist */,
+				AD4126282458058B007EBAE0 /* main.m */,
+				AD41262A2458058B007EBAE0 /* TaxiTDD.entitlements */,
+			);
+			path = TaxiTDD;
+			sourceTree = "<group>";
+		};
+		AD4126322458058B007EBAE0 /* TaxiTDDTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD4126332458058B007EBAE0 /* TaxiTDDTests.m */,
+				AD4126352458058B007EBAE0 /* Info.plist */,
+			);
+			path = TaxiTDDTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD4126182458058A007EBAE0 /* TaxiTDD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4126382458058B007EBAE0 /* Build configuration list for PBXNativeTarget "TaxiTDD" */;
+			buildPhases = (
+				AD4126152458058A007EBAE0 /* Sources */,
+				AD4126162458058A007EBAE0 /* Frameworks */,
+				AD4126172458058A007EBAE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaxiTDD;
+			productName = TaxiTDD;
+			productReference = AD4126192458058A007EBAE0 /* TaxiTDD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD41262E2458058B007EBAE0 /* TaxiTDDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD41263B2458058B007EBAE0 /* Build configuration list for PBXNativeTarget "TaxiTDDTests" */;
+			buildPhases = (
+				AD41262B2458058B007EBAE0 /* Sources */,
+				AD41262C2458058B007EBAE0 /* Frameworks */,
+				AD41262D2458058B007EBAE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD4126312458058B007EBAE0 /* PBXTargetDependency */,
+			);
+			name = TaxiTDDTests;
+			productName = TaxiTDDTests;
+			productReference = AD41262F2458058B007EBAE0 /* TaxiTDDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD4126112458058A007EBAE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Junial;
+				TargetAttributes = {
+					AD4126182458058A007EBAE0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					AD41262E2458058B007EBAE0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = AD4126182458058A007EBAE0;
+					};
+				};
+			};
+			buildConfigurationList = AD4126142458058A007EBAE0 /* Build configuration list for PBXProject "TaxiTDD" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD4126102458058A007EBAE0;
+			productRefGroup = AD41261A2458058A007EBAE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD4126182458058A007EBAE0 /* TaxiTDD */,
+				AD41262E2458058B007EBAE0 /* TaxiTDDTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD4126172458058A007EBAE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4126232458058B007EBAE0 /* Assets.xcassets in Resources */,
+				AD4126262458058B007EBAE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD41262D2458058B007EBAE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD4126152458058A007EBAE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4126212458058A007EBAE0 /* ViewController.m in Sources */,
+				AD4126292458058B007EBAE0 /* main.m in Sources */,
+				AD41261E2458058A007EBAE0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD41262B2458058B007EBAE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4126342458058B007EBAE0 /* TaxiTDDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD4126312458058B007EBAE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD4126182458058A007EBAE0 /* TaxiTDD */;
+			targetProxy = AD4126302458058B007EBAE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD4126242458058B007EBAE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD4126252458058B007EBAE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD4126362458058B007EBAE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AD4126372458058B007EBAE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AD4126392458058B007EBAE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TaxiTDD/TaxiTDD.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6M9352RRVM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = TaxiTDD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junial.TaxiTDD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD41263A2458058B007EBAE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TaxiTDD/TaxiTDD.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6M9352RRVM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = TaxiTDD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junial.TaxiTDD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD41263C2458058B007EBAE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6M9352RRVM;
+				INFOPLIST_FILE = TaxiTDDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.junial.TaxiTDDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxiTDD.app/Contents/MacOS/TaxiTDD";
+			};
+			name = Debug;
+		};
+		AD41263D2458058B007EBAE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6M9352RRVM;
+				INFOPLIST_FILE = TaxiTDDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.junial.TaxiTDDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxiTDD.app/Contents/MacOS/TaxiTDD";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD4126142458058A007EBAE0 /* Build configuration list for PBXProject "TaxiTDD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4126362458058B007EBAE0 /* Debug */,
+				AD4126372458058B007EBAE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4126382458058B007EBAE0 /* Build configuration list for PBXNativeTarget "TaxiTDD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4126392458058B007EBAE0 /* Debug */,
+				AD41263A2458058B007EBAE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD41263B2458058B007EBAE0 /* Build configuration list for PBXNativeTarget "TaxiTDDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD41263C2458058B007EBAE0 /* Debug */,
+				AD41263D2458058B007EBAE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD4126112458058A007EBAE0 /* Project object */;
+}
