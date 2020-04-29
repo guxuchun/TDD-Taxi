@@ -13,6 +13,8 @@
 		AD4126262458058B007EBAE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4126242458058B007EBAE0 /* Main.storyboard */; };
 		AD4126292458058B007EBAE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4126282458058B007EBAE0 /* main.m */; };
 		AD4126342458058B007EBAE0 /* TaxiTDDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4126332458058B007EBAE0 /* TaxiTDDTests.m */; };
+		AD41264024580668007EBAE0 /* Taxi.m in Sources */ = {isa = PBXBuildFile; fileRef = AD41263F24580668007EBAE0 /* Taxi.m */; };
+		AD41264124580668007EBAE0 /* Taxi.m in Sources */ = {isa = PBXBuildFile; fileRef = AD41263F24580668007EBAE0 /* Taxi.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,8 @@
 		AD41262F2458058B007EBAE0 /* TaxiTDDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiTDDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4126332458058B007EBAE0 /* TaxiTDDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaxiTDDTests.m; sourceTree = "<group>"; };
 		AD4126352458058B007EBAE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD41263E24580668007EBAE0 /* Taxi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Taxi.h; sourceTree = "<group>"; };
+		AD41263F24580668007EBAE0 /* Taxi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Taxi.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				AD41261D2458058A007EBAE0 /* AppDelegate.m */,
 				AD41261F2458058A007EBAE0 /* ViewController.h */,
 				AD4126202458058A007EBAE0 /* ViewController.m */,
+				AD41263E24580668007EBAE0 /* Taxi.h */,
+				AD41263F24580668007EBAE0 /* Taxi.m */,
 				AD4126222458058B007EBAE0 /* Assets.xcassets */,
 				AD4126242458058B007EBAE0 /* Main.storyboard */,
 				AD4126272458058B007EBAE0 /* Info.plist */,
@@ -204,6 +210,7 @@
 				AD4126212458058A007EBAE0 /* ViewController.m in Sources */,
 				AD4126292458058B007EBAE0 /* main.m in Sources */,
 				AD41261E2458058A007EBAE0 /* AppDelegate.m in Sources */,
+				AD41264024580668007EBAE0 /* Taxi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD4126342458058B007EBAE0 /* TaxiTDDTests.m in Sources */,
+				AD41264124580668007EBAE0 /* Taxi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

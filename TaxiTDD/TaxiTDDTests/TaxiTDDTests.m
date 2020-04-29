@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "Taxi.h"
 
 @interface TaxiTDDTests : XCTestCase
 
@@ -18,20 +19,29 @@
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
-- (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
+
+// 小于2公里
+- (void)testLessThanTwoKilometres {
+    NSString *price = [Taxi calculatePrice:@"1公里，等待0分钟"];
+    XCTAssertEqualObjects(price, @"6");
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+// 大于2公里小于8公里
+- (void)testMoreThanTwoKilometresAndLessThanEightKilometres {
+    NSString *price = [Taxi calculatePrice:@"3公里，等待0分钟"];
+    XCTAssertEqualObjects(price, @"7");
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testMoreThanEightKilometres {
+    NSString *price = [Taxi calculatePrice:@"10公里，等待0分钟"];
+    XCTAssertEqualObjects(price, @"13");
 }
+
+- (void)testDistanceWithWaitMintus {
+    NSString *price = [Taxi calculatePrice:@"2公里，等待3分钟"];
+    XCTAssertEqualObjects(price, @"7");
+}
+
+
 
 @end
