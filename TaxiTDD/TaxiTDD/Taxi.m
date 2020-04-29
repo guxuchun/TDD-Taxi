@@ -10,30 +10,36 @@
 
 @implementation Taxi
 
+// 计算费用结果
 + (NSString *)calculatePrice:(NSString *)data {
-    NSArray<NSString *> * result = [self getDistanceAndMinutes:data];
-    int distance = result.firstObject.intValue;
-    int minutes = result.lastObject.intValue;
+    NSArray *records = [data componentsSeparatedByString:@"\n"];
+    NSMutableArray *results = [NSMutableArray array];
+    NSLog(@"%@", records);
     
-    return [self calculatePriceWithDistance:distance waitFor:minutes];
-}
-
-+ (NSArray *)getDistanceAndMinutes:(NSString *)txt {
-    
-    NSMutableArray *msgArr = [NSMutableArray array];
-    
-    NSString *pattern = @"[0-9]+";
-    //1.1将正则表达式设置为OC规则
-    NSRegularExpression *regular = [[NSRegularExpression alloc] initWithPattern:pattern options:NSRegularExpressionCaseInsensitive error:nil];
-    //2.利用规则测试字符串获取匹配结果
-    NSArray *results = [regular matchesInString:txt options:0 range:NSMakeRange(0, txt.length)];
-    //遍历结果
-    for (NSTextCheckingResult *result in results) {
-        [msgArr addObject:[txt substringWithRange:result.range]];
+    for (NSString *record in records) {
+        NSArray<NSString *> * data = [self getDistanceAndMinutes:record];
+        int distance = data.firstObject.intValue;
+        int minutes = data.lastObject.intValue;
+        NSString *price = [self calculatePriceWithDistance:distance waitFor:minutes];
+        [results addObject:price];
     }
-    return [msgArr copy];
+    
+    return [results componentsJoinedByString:@"\n"];
 }
 
+// 获取里程和时间
++ (NSArray<NSString *> *)getDistanceAndMinutes:(NSString *)txt {
+    NSMutableArray *dataArr = [NSMutableArray array];
+    NSString *pattern = @"[0-9]+";
+    NSRegularExpression *regular = [[NSRegularExpression alloc] initWithPattern:pattern options:NSRegularExpressionCaseInsensitive error:nil];
+    NSArray *results = [regular matchesInString:txt options:0 range:NSMakeRange(0, txt.length)];
+    for (NSTextCheckingResult *result in results) {
+        [dataArr addObject:[txt substringWithRange:result.range]];
+    }
+    return [dataArr copy];
+}
+
+// 计算单条记录的价格
 + (NSString *)calculatePriceWithDistance:(int)distance waitFor:(int)minutes {
     CGFloat distancePrice = 0;
     CGFloat timePrice = minutes * 0.25;
@@ -47,7 +53,7 @@
     }
     
     int price = (int)roundf(distancePrice + timePrice);
-    return [NSString stringWithFormat:@"%d", price];
+    return [NSString stringWithFormat:@"收费%d元", price];
 }
 
 @end

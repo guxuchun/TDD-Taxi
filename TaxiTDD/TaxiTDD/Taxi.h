@@ -11,16 +11,9 @@
 
 @interface Taxi : NSObject
 
-
 /// 计算路费
 /// @param data 测试数据
 + (NSString *)calculatePrice:(NSString *)data;
-
-
-/// 计算路费
-/// @param distance 距离
-/// @param minutes 等待时间
-+ (NSString *)calculatePriceWithDistance:(int)distance waitFor:(int)minutes;
 
 @end
 
